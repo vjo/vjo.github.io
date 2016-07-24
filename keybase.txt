@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/vjo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://victor.jolissaint.net
+  * I am vjo (https://keybase.io/vjo) on keybase.
+  * I have a public key with fingerprint 6C63 6849 090B 71C1 FEC6  1A7D C7EB D57C 78B9 9F3C
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "6c636849090b71c1fec61a7dc7ebd57c78b99f3c",
+            "host": "keybase.io",
+            "key_id": "c7ebd57c78b99f3c",
+            "kid": "0101c6af8fcf30af9d583a32a0f053740504e5ab060ad275b51283451b5db6a12e7c0a",
+            "uid": "9d7aaf2808441d3c33d103f20e06a500",
+            "username": "vjo"
+        },
+        "service": {
+            "hostname": "victor.jolissaint.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1421107455,
+    "expire_in": 157680000,
+    "prev": "ee77de59e0406549b2ec9d90eeebcdb1f25fcd8003dc901ed72f79128973000b",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.20 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFtkmuITVEUx+8wXhOFPMorczDNaGbsffbZZ59zPxCi6+3DeETc9uvMnJlxznXP
+cT3GUOQDpa7IW4lQlDRjSh6NzIga5JEkoTSGS/Jm0MQ+E9/sL7u91v//W3utVnZA
+z1hBXu3LMRsah3xP5LXlWKziPC2s05gv1mvxOq1Gdl+O61XKdCrteqEW10xuItMy
+bGADRiCHjuQmpERwIpnAhBOL2baDuFaqVflB5FAYRgNZ7voqph5JV6jof/Q13QkA
+AeQmdSyHOwhQxxbYQhTpFDgAI2IADAyJKQMmoEInmGGoW8jAkGHBTAp1STigCrem
+G2cLQqmjW8AyDCgQR0hAgBwdSGBSDEAkDGTao6ukUmeqfa2+VFOBjMtl1H3UxL+k
+y0M/XV7t17pBQNU4yj0ZKn8q7Yc+92uVpCoMU/GIEK5PRZa1kiX/wpLM9YQapTJk
+ZDpwfU+LQ6XkoRvRoaFDCIiBcakm16XctEy6kQIT0wLqRGVkRiGlJERIbEtgABMb
+NtMlt4UNpJSMCwYdHTtcKA8S3AZQCqI7xFYzsglSHKZF7a32fC2O1DdppUIGbqVH
+wzW90lKrL9ieNyo/llcQ692rR7QOsYJ+A//tyMWgT9eYk4UjR5/qk2363WkNOtG0
+cfi8Lw0vEi9n2yur5qybs+hCTb75ogHqHweMr7tx5/bTPSfLdi7IJrLmJS+3vT77
++2jruMef2OBvu7tyYxM/9j3Ph7/4vHf30cTdqO+Rw/fNIXc391+2/1Xx57Jps4ru
+jCra2/7k3Y1HX/Y0i/2T585Ynmi1V7Rt3fXs4qnBu2Z9vRKUVE/pPNdZ3LFl+rVc
+CS/8GJv0c0lz45lPh6aWLXSblr9PvP36of3Z67aWyuntLcdOE3FsaSacer1hW8eI
+1uTZmbe6fjy8+u3mhDeNtffmn56CFze3H7jsoZ8jnmx60FK08/jI1QvNjp4NB4fl
+KkqGPtoRbJ557w8=
+=EJcB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vjo
+
+==================================================================
+
