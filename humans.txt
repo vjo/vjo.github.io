@@ -1,12 +1,12 @@
 /* TEAM */
     Chef: Victor Jolissaint
     Contact: victor [at] jolissaint [dot] net
-    Twitter: @y3ty
+    Twitter: @vjo
     Site: http://victor.jolissaint.net
-    From: Paris, France
+    From: London, UK
 
 /* SITE */
-    Last update: 2013/08/16
+    Last update: 2016/07/24
     Language: English
     Doctype: HTML5
     IDE: vim
