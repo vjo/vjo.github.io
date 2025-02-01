@@ -1,45 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Homepage of Victor Jolissaint">
-    <meta name="author" content="Victor Jolissaint">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Victor Jolissaint - Homepage</title>
 
-    <link href="humans.txt" rel="author">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png" />
 
-    <link href="img/favicon.ico" rel="icon">
-    <link href="img/favicon.png" rel="shortcut icon">
+    <style>
+      :root {
+        --bg-color: #004643;
+        --text-color: #abd1c6;
+        --heading-color: #fffffe;
+        --hover-color: #f9bc60;
+        --strike-color: #e16162;
+      }
 
-    <link href="//fonts.googleapis.com/css?family=Bad+Script|Raleway:100,300" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/screen.min.css" rel="stylesheet">
+      body,
+      html {
+        background: var(--bg-color);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 300px;
+        height: 100%;
+        box-sizing: border-box;
+        font-family: Roboto, Helvetica, sans-serif;
+      }
+      main {
+        padding-inline: 2rem;
+        padding-block: 3rem;
+        display: flex;
+        gap: 1.5rem;
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+        color: var(--text-color);
+      }
+      h1 {
+        margin: 0;
+        color: var(--heading-color);
+        font-size: 2.5rem;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      @media (min-width: 550px) {
+        ul {
+          flex-direction: row;
+        }
+      }
+      li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      a {
+        color: var(--text-color);
+        box-sizing: border-box;
+        padding: 0.2rem;
+      }
+      a:hover {
+        color: var(--hover-color);
+      }
+      a:focus-visible {
+        outline: 2px solid var(--hover-color);
+        border-radius: 2px;
+      }
+      s {
+        text-decoration: line-through;
+        text-decoration-style: solid;
+        text-decoration-thickness: 2px;
+        text-decoration-color: var(--strike-color);
+      }
+      #viewport {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        align-self: end;
+        font-size: 14vw;
+        font-family: monospace;
+        color: rgba(0, 0, 0, 0.06);
+        pointer-events: none;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <p class="fancy ppic">
-        <span><img src="img/victor-jolissaint.png" alt="Victor Jolissaint"></span>
-      </p>
-      <div class="name">Victor <span>Jolissaint</span></div>
-      <p class="fancy badscript"><span>Software Engineer</span></p>
-      <p class="social">
-        <a href="https://github.com/vjo"><i class="icon-github-sign"></i></a>
-        <a href="https://twitter.com/vjo"><i class="icon-twitter-sign"></i></a>
-        <a href="https://linkedin.com/in/victorjolissaint"><i class="icon-linkedin-sign"></i></a>
-        <a href="https://facebook.com/victor.jolissaint"><i class="icon-facebook-sign"></i></a>
-        <a href="https://plus.google.com/117396624533060278091"><i class="icon-google-plus-sign"></i></a>
-      </p>
-    </header>
+    <main>
+      <h1>Victor Jolissaint</h1>
+
+      <ul>
+        <li><a href="https://github.com/vjo">Github</a></li>
+        <li><a href="https://bsky.app/profile/vjo.li">Bluesky</a></li>
+        <li><a href="https://macaw.social/@vjo">Mastodon</a></li>
+        <li>
+          <s title="deprecated"><a href="https://twitter.com/vjo">Twitter</a></s>
+        </li>
+        <li><a href="https://linkedin.com/in/victorjolissaint">LinkedIn</a></li>
+      </ul>
+    </main>
+
+    <span id="viewport" aria-hidden="true"></span>
 
     <script type="text/javascript">
-      var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-30679636-1']); _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+      const viewport = document.getElementById("viewport");
+      const updateViewPort = () => {
+        const width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        const height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        viewport.innerText = `${width} x ${height}`;
+      };
+      updateViewPort();
+      window.addEventListener("resize", updateViewPort);
     </script>
   </body>
 </html>
